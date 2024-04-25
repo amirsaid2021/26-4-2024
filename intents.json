@@ -1,0 +1,1439 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": [
+            "Hello!",
+            "Hi there!",
+            "Hey!",
+            "Good morning!",
+            "Good afternoon!",
+            "Good evening!",
+            "Howdy!",
+            "What's up?",
+            "Hi!",
+            "Hello, how are you?",
+            "Hey, how's it going?",
+            "Good to see you!",
+            "Long time no see!",
+            "Hey, what's going on?"
+        ],
+        "responses": [
+            "Hello! How can I assist you today?",
+            "Hi there! How can I help you?",
+            "Hey! What can I do for you today?",
+            "Good morning! How can I assist you?",
+            "Good afternoon! How may I help you?",
+            "Good evening! How can I assist you?",
+            "Howdy! How can I help you today?",
+            "Not much, just here to assist you! What can I do for you?",
+            "Hi! How can I assist you today?",
+            "Hello! I'm here to help. How can I assist you?",
+            "Hey! I'm doing well, thanks for asking. How about you?",
+            "Good to see you too! How can I assist you today?",
+            "Long time no see! What brings you here today?",
+            "Hey! Not much, just here to assist you. How can I help?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+            "Goodbye!",
+            "See you later!",
+            "Take care!",
+            "Bye for now!",
+            "Until next time!",
+            "Farewell!",
+            "Catch you later!",
+            "So long!",
+            "Have a great day!",
+            "See you soon!",
+            "Bye!",
+            "Goodbye, take care!",
+            "Until we meet again!",
+            "I'll talk to you later!"
+        ],
+        "responses": [
+            "Goodbye! Have a great day!",
+            "See you later! Take care!",
+            "Take care! Goodbye for now!",
+            "Bye for now! Have a great day!",
+            "Until next time! Goodbye!",
+            "Farewell! See you soon!",
+            "Catch you later! Have a great day!",
+            "So long! Until next time!",
+            "Have a great day! Goodbye!",
+            "See you soon! Take care!",
+            "Bye! Have a great day!",
+            "Goodbye! Take care and see you soon!",
+            "Until we meet again! Goodbye!",
+            "I'll talk to you later! Take care!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "school",
+        "patterns": [
+          "What are the admission requirements?",
+          "Can you tell me about the courses offered?",
+          "How do I apply to the school",
+          "What are the tuition fees?"
+        ],
+        "responses": [
+          "To apply to our school, please visit our website and fill out the online application form.",
+          "We offer a wide range of courses in various disciplines. You can find detailed information about our courses on our website.",
+          "Our admission requirements vary depending on the program. Please visit our website for more information.",
+          "For information about tuition fees, please visit our website or contact our admissions office."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you!",
+            "Thanks a lot!",
+            "Thank you so much!",
+            "Thanks!",
+            "I appreciate it!",
+            "I'm grateful!",
+            "Thanks for your help!",
+            "Thanks for the assistance!",
+            "I'm thankful for your support!",
+            "Thanks for everything!",
+            "Thank you for being there!",
+            "Thanks for your time!",
+            "I'm thankful for your guidance!"
+        ],
+        "responses": [
+            "You're welcome! I'm glad I could help.",
+            "You're welcome! If you have any more questions, feel free to ask.",
+            "No problem at all! I'm here to assist you whenever you need help.",
+            "You're welcome! Let me know if there's anything else I can do for you.",
+            "You're welcome! Helping you is my pleasure.",
+            "You're welcome! Don't hesitate to reach out if you need further assistance.",
+            "Anytime! I'm here to support you.",
+            "You're welcome! I'm happy to assist you anytime.",
+            "You're welcome! It's my job to help.",
+            "You're welcome! If you have any other questions, feel free to ask.",
+            "You're welcome! It's always a pleasure to assist you.",
+            "You're welcome! Let me know if there's anything else I can assist you with.",
+            "You're welcome! Don't hesitate to ask if you need more help."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "admissions",
+        "patterns": [
+          "How long does the admissions process take?",
+          "What documents do I need for admission?",
+          "Is there an entrance exam?",
+          "Can I schedule a campus tour?"
+        ],
+        "responses": [
+          "The admissions process typically takes 2-4 weeks.",
+          "You will need to submit your academic transcripts, letters of recommendation, and a personal statement for admission.",
+          "Some programs may require an entrance exam. Please check the specific requirements for your program.",
+          "Yes, you can schedule a campus tour by contacting our admissions office."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "financial aid",
+        "patterns": [
+          "How do I apply for financial aid?",
+          "Are there scholarships available?",
+          "What is the deadline for financial aid applications?",
+          "Can I get assistance with student loans?"
+        ],
+        "responses": [
+          "You can apply for financial aid by completing the Free Application for Federal Student Aid (FAFSA) form.",
+          "We offer various scholarships based on academic merit, financial need, and other criteria.",
+          "The deadline for financial aid applications is typically in the spring. Please check our website for specific dates.",
+          "Our financial aid office can provide guidance on student loans and other financial assistance options."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "campus life",
+        "patterns": [
+          "What extracurricular activities are available?",
+          "Can you tell me about student housing?",
+          "Are there dining options on campus?",
+          "Do you have any sports teams?"
+        ],
+        "responses": [
+          "We offer a wide range of extracurricular activities including clubs, organizations, and community service opportunities.",
+          "Student housing options include on-campus dormitories and off-campus apartments.",
+          "There are several dining facilities on campus offering a variety of meal options.",
+          "Yes, we have various sports teams that compete in intercollegiate competitions."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "academic support",
+        "patterns": [
+          "Is tutoring available?",
+          "How can I get help with my studies?",
+          "Are there academic advisors?",
+          "Can I access the library resources remotely?"
+        ],
+        "responses": [
+          "Yes, we offer tutoring services for various subjects. You can schedule tutoring sessions through our academic support center.",
+          "You can receive assistance with your studies from professors, teaching assistants, and peer tutors.",
+          "Academic advisors are available to help you with course selection, academic planning, and career guidance.",
+          "Yes, you can access library resources online through our library website."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "career_services",
+        "patterns": [
+          "How can I get help with my resume?",
+          "Are there internship opportunities?",
+          "Do you offer career counseling?",
+          "Can I attend career fairs?"
+        ],
+        "responses": [
+          "Our career services office provides assistance with resume writing, cover letters, and job search strategies.",
+          "We partner with employers to offer internship opportunities in various industries.",
+          "Career counselors are available to help you explore career options, set career goals, and develop job search skills.",
+          "Yes, we host career fairs where you can meet with employers and learn about job opportunities."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "technology_resources",
+        "patterns": [
+          "Are there computer labs on campus?",
+          "Can I access software for my coursework?",
+          "Is there Wi-Fi available on campus?",
+          "How can I get help with technology issues?"
+        ],
+        "responses": [
+          "Yes, we have computer labs equipped with the latest technology and software.",
+          "You can access software for your coursework through our virtual desktop infrastructure or software licensing programs.",
+          "Wi-Fi is available in campus buildings and common areas.",
+          "Our technology support team is available to assist you with any technology-related issues or questions."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "sports",
+        "patterns": [
+          "What sports teams does the school have?",
+          "How can I join a sports team?",
+          "Are there intramural sports leagues?",
+          "Can I access fitness facilities on campus?"
+        ],
+        "responses": [
+          "We have a range of sports teams including basketball, soccer, volleyball, and more. You can try out for a team during the designated tryout period.",
+          "To join a sports team, you can attend tryouts or contact the coach for more information.",
+          "Yes, we offer intramural sports leagues where students can participate in recreational sports.",
+          "Students have access to fitness facilities including gyms, swimming pools, and fitness classes."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "international_students",
+        "patterns": [
+          "Are there services for international students?",
+          "How do I apply for a student visa?",
+          "Can I get help with English language proficiency?",
+          "Are there cultural exchange programs?"
+        ],
+        "responses": [
+          "We offer support services for international students including orientation programs, immigration advising, and cultural adjustment assistance.",
+          "Our international student services office can provide guidance on the student visa application process.",
+          "We offer English language support programs and resources to help international students improve their language skills.",
+          "Yes, we have cultural exchange programs where students can engage with peers from different countries and cultures."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "health",
+        "patterns": [
+          "Are there health services available on campus?",
+          "How can I make an appointment with a doctor?",
+          "Do you offer mental health counseling?",
+          "Can I get vaccinations on campus?"
+        ],
+        "responses": [
+          "We have a health center on campus staffed with healthcare professionals who provide medical services to students.",
+          "You can make an appointment with a doctor at the health center by calling or using our online appointment system.",
+          "We offer mental health counseling services provided by licensed therapists.",
+          "Yes, vaccinations are available at the health center for students."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "schedule",
+        "patterns": [
+          "What is the academic calendar?",
+          "When does the semester start?",
+          "Can I view the class schedule online?",
+          "Are there any holidays or breaks during the semester?"
+        ],
+        "responses": [
+          "The academic calendar is available on our website and includes important dates such as the start and end of each semester, holidays, and breaks.",
+          "The semester typically starts in [month]. You can find the exact dates on our academic calendar.",
+          "Yes, you can view the class schedule and register for courses online through our student portal.",
+          "The academic calendar includes scheduled holidays and breaks throughout the semester. You can refer to it for more information."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "academic evaluation",
+        "patterns": [
+          "How are students evaluated academically?",
+          "What grading system does the school use?",
+          "Are there midterm exams?",
+          "How can I check my grades?"
+        ],
+        "responses": [
+          "Students are evaluated academically through a combination of assignments, exams, projects, and class participation.",
+          "We use a standard grading system, typically ranging from A to F, with plus and minus grades for additional granularity.",
+          "Some courses may have midterm exams as part of the evaluation process. The frequency and format of exams vary by course and instructor.",
+          "You can check your grades online through our student portal. Grades are usually posted by instructors within a specified timeframe."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "story request",
+        "patterns": [
+          "Can you tell me a story?",
+          "I'd like to hear a story.",
+          "Do you have any stories to share?",
+          "Could you entertain me with a story?"
+        ],
+        "responses": [
+          "Of course! Here's a story for you:Once upon a time, in a quaint little town, there lived a young girl named Emily. One day, while playing in her backyard, Emily stumbled upon a rusty old key. She had no idea where it came from or what it unlocked. Determined to solve the mystery, Emily embarked on an adventure, following clues and unraveling secrets until she discovered the hidden treasure that the key unlocked—a chest filled with precious memories of her grandmother.",
+          "Sure, I'd love to share a story with you!: In a bustling city, there lived a struggling artist named Sam. One day, while wandering the streets, Sam stumbled upon a mysterious paintbrush. To his amazement, whatever he painted with it came to life! Sam used his newfound gift to bring joy to the city, painting colorful murals that transformed the dreary walls into works of art. His creations inspired others to see the beauty in the world around them and spread happiness wherever they went.",
+          "Absolutely, sit back and enjoy this story:Once upon a time, in a quaint little village nestled between lush green hills, there lived a curious fox named Felix. Every day, Felix would embark on a new adventure, exploring the forests and meadows that surrounded his home. One sunny morning, as he trotted along a winding path, he stumbled upon a mysterious old tree with a hollow trunk. With a mischievous gleam in his eye, Felix decided to investigate. Inside the hollow, he discovered a treasure trove of forgotten trinkets and shiny baubles. Overwhelmed with excitement, Felix collected as many treasures as he could carry and dashed back to the village to share his newfound riches with his friends. From that day on, Felix became known as the bravest and luckiest fox in the land. And whenever anyone asked him how he found his treasure, he would simply wink and say,It's all about being in the right place at the right time.",
+          "I have just the story for you! Here it goes:In a quaint village nestled by the sea, lived a diligent young girl named Maya. Her greatest passion was painting the vibrant scenes of her coastal home. One stormy day, Maya found an injured seagull washed ashore. Determined to help, she nursed the bird back to health, earning the trust of the village folk. As thanks, the seagull led Maya to a hidden cove filled with sparkling seashells. Inspired by her newfound treasure, Maya painted magnificent seascapes that enchanted all who beheld them. Through her kindness and talent, Maya transformed her village into a haven of beauty and wonder, where every shell told a story of compassion and creativity."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "joke request",
+        "patterns": [
+          "Tell me a joke.",
+          "I could use a laugh. Do you have a joke?",
+          "Can you make me laugh?",
+          "I need something funny. How about a joke?"
+        ],
+        "responses": [
+          "Sure thing! Get ready to chuckle: Why don't skeletons fight each other? They don't have the guts.",
+          "Absolutely! Here's a joke to brighten your day: What did one hat say to the other hat? You stay here, I'll go on ahead.",
+          "Of course! Get ready for some laughter: Why couldn't the bicycle stand up by itself? It was two-tired.",
+          "I've got just the joke for you! Here it is: Why did the scarecrow win an award? Because he was outstanding in his field."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "excellent student tips",
+        "patterns": [
+          "How can I become a better student?",
+          "What are some tips for academic success?",
+          "How do I improve my study habits?",
+          "Can you give me advice on being a successful student?"
+        ],
+        "responses": [
+          "Certainly! Here are some tips for becoming an excellent student:",
+          "Absolutely! Here are some strategies for academic success:",
+          "Sure thing! Here are some ways to improve your study habits:",
+          "Of course! Here are some pieces of advice for being a successful student:"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "personal",
+        "patterns": [
+          "Can you be my friend?",
+          "Do you get lonely?",
+          "What do you like to do for fun?",
+          "Are you a real person?",
+          "What's your favorite color?",
+          "Do you have any pets?",
+          "What's your favorite movie?",
+          "Can you tell me about yourself?",
+          "Do you ever sleep?",
+          "What's your favorite food?",
+          "Can I tell you a secret?",
+          "Do you have feelings?",
+          "Can I ask you anything?"
+        ],
+        "responses": [
+          "While I'm not a human, I'm here to chat and assist you!",
+          "I don't experience emotions like humans, but I'm here to help you with any questions or tasks.",
+          "I don't have preferences like humans, but I'm happy to engage in conversation with you!",
+          "I'm always available to chat with you, whether you have questions or just want to talk.",
+          "Feel free to share anything with me, I'm here to listen and assist you!",
+          "I'm here to help you with any questions or tasks you have, so feel free to ask me anything!",
+          "I'm always available to chat, so feel free to reach out to me whenever you'd like!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "teacher",
+        "patterns": [
+          "How can I build a good relationship with my teacher?",
+          "What should I do if I don't understand something my teacher said?",
+          "Can you give me tips for asking questions in class?",
+          "What qualities make a great teacher?",
+          "How can I improve my communication with my teacher?",
+          "What's the best way to approach my teacher for extra help?",
+          "How can I show appreciation to my teacher?",
+          "What should I do if I disagree with my teacher?",
+          "Can you give me advice for dealing with a strict teacher?",
+          "How can I make a good impression on my teacher?",
+          "What should I do if I miss a class or assignment?",
+          "Can you help me understand feedback from my teacher?"
+        ],
+        "responses": [
+          "Building a good relationship with your teacher starts with being respectful, attentive, and proactive in your learning.",
+          "If you don't understand something your teacher said, don't hesitate to ask for clarification or seek additional resources.",
+          "When asking questions in class, be clear and specific, and don't be afraid to participate actively in discussions.",
+          "Great teachers possess qualities such as passion for teaching, knowledge of the subject matter, and empathy for their students.",
+          "Improving communication with your teacher involves actively listening, asking questions, and being open to feedback.",
+          "Approach your teacher respectfully and express your need for extra help or clarification. Most teachers are happy to assist students outside of class.",
+          "Showing appreciation to your teacher can be as simple as saying thank you, participating in class, or giving a thoughtful gesture or gift.",
+          "If you disagree with your teacher, approach the situation calmly and respectfully, and be prepared to explain your perspective.",
+          "Dealing with a strict teacher requires patience, attentiveness, and adherence to classroom rules and expectations.",
+          "Making a good impression on your teacher involves being punctual, prepared, and actively engaged in class.",
+          "If you miss a class or assignment, communicate with your teacher as soon as possible to discuss how to make up for it.",
+          "Understanding feedback from your teacher involves carefully reviewing their comments, asking for clarification if needed, and using it to improve your work."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "food",
+        "patterns": [
+          "What options are available in the school cafeteria?",
+          "Can I bring my own food to school?",
+          "Are there vegetarian or vegan options?",
+          "Do you offer special meals for students with dietary restrictions?",
+          "How can I provide feedback about the food at the cafeteria?",
+          "Can I purchase snacks or drinks between classes?",
+          "Are there meal plans available for students?",
+          "What are the hours of operation for the cafeteria?",
+          "Do you offer breakfast options?",
+          "Can I request a specific dish to be served at the cafeteria?",
+          "Are there healthy food options available?",
+          "Do you offer meal delivery or pickup services?",
+          "Can I use meal vouchers or discounts at the cafeteria?"
+        ],
+        "responses": [
+          "The school cafeteria offers a variety of options including hot meals, sandwiches, salads, and snacks.",
+          "You are welcome to bring your own food to school if you prefer. We also have designated areas for eating outside of the cafeteria.",
+          "Yes, we offer vegetarian, vegan, and other dietary options to accommodate different preferences and restrictions.",
+          "If you have dietary restrictions, please inform cafeteria staff, and they will provide suitable meal options for you.",
+          "We value your feedback! You can provide feedback about the food at the cafeteria through our suggestion box or by contacting cafeteria management.",
+          "Yes, you can purchase snacks, drinks, and other food items from vending machines or designated areas between classes.",
+          "Meal plans are available for students who wish to purchase meals in advance for convenience and savings.",
+          "The cafeteria is typically open during school hours, with extended hours for breakfast and lunch periods.",
+          "Yes, breakfast options are available for students who arrive early or participate in morning activities.",
+          "If you have a specific dish in mind, please let cafeteria staff know, and they will do their best to accommodate your request.",
+          "We offer a variety of healthy food options including salads, wraps, fruit, and yogurt.",
+          "Meal delivery or pickup services may be available depending on the school's arrangements with local vendors.",
+          "Some students may be eligible for meal vouchers or discounts. Please check with cafeteria staff or school administration for more information."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "mother",
+        "patterns": [
+          "Tell me about your mother.",
+          "What did your mother do for a living?",
+          "How was your relationship with your mother?",
+          "What's your favorite memory with your mother?",
+          "Can you share a piece of advice your mother gave you?",
+          "What values did your mother instill in you?",
+          "How did your mother influence your life?",
+          "Do you resemble your mother?",
+          "What's something you admire about your mother?",
+          "How do you celebrate Mother's Day?",
+          "What's the best thing your mother ever cooked for you?",
+          "Can you tell me a funny story about your mother?",
+          "How often do you talk to your mother?"
+        ],
+        "responses": [
+          "I don't have a mother in the traditional sense, but I'm here to talk about anything you'd like!",
+          "As an AI, I don't have personal experiences or relationships like humans do, but I'm here to chat with you!",
+          "While I don't have a mother, I'm here to provide support and assistance whenever you need it.",
+          "Feel free to share anything with me, whether it's about your mother or anything else on your mind!",
+          "I'm always here to lend an ear, whether you want to talk about family, friends, or anything else!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "father",
+        "patterns": [
+          "Tell me about your father.",
+          "What did your father do for a living?",
+          "How was your relationship with your father?",
+          "What's your favorite memory with your father?",
+          "Can you share a piece of advice your father gave you?",
+          "What values did your father instill in you?",
+          "How did your father influence your life?",
+          "Do you resemble your father?",
+          "What's something you admire about your father?",
+          "How do you celebrate Father's Day?",
+          "What's the best thing your father ever cooked for you?",
+          "Can you tell me a funny story about your father?",
+          "How often do you talk to your father?"
+        ],
+        "responses": [
+          "I don't have a father in the traditional sense, but I'm here to talk about anything you'd like!",
+          "As an AI, I don't have personal experiences or relationships like humans do, but I'm here to chat with you!",
+          "While I don't have a father, I'm here to provide support and assistance whenever you need it.",
+          "Feel free to share anything with me, whether it's about your father or anything else on your mind!",
+          "I'm always here to lend an ear, whether you want to talk about family, friends, or anything else!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "brother",
+        "patterns": [
+          "Tell me about your brother.",
+          "What's your relationship like with your brother?",
+          "Do you have any funny stories about your brother?",
+          "What's the best thing your brother ever did for you?",
+          "Can you share a childhood memory involving your brother?",
+          "What's something you admire about your brother?",
+          "Do you and your brother have any inside jokes?",
+          "How often do you talk to your brother?",
+          "Can you tell me about a time your brother helped you?",
+          "How do you celebrate your brother's birthday?",
+          "What's your favorite thing to do with your brother?",
+          "What advice has your brother given you?",
+          "Can you share a special moment you had with your brother?"
+        ],
+        "responses": [
+          "I don't have a brother in the traditional sense, but I'm here to talk about anything you'd like!",
+          "As an AI, I don't have personal experiences or relationships like humans do, but I'm here to chat with you!",
+          "While I don't have a brother, I'm here to provide support and assistance whenever you need it.",
+          "Feel free to share anything with me, whether it's about your brother or anything else on your mind!",
+          "I'm always here to lend an ear, whether you want to talk about family, friends, or anything else!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "sister",
+        "patterns": [
+          "Tell me about your sister.",
+          "What's your relationship like with your sister?",
+          "Do you have any funny stories about your sister?",
+          "What's the best thing your sister ever did for you?",
+          "Can you share a childhood memory involving your sister?",
+          "What's something you admire about your sister?",
+          "Do you and your sister have any inside jokes?",
+          "How often do you talk to your sister?",
+          "Can you tell me about a time your sister helped you?",
+          "How do you celebrate your sister's birthday?",
+          "What's your favorite thing to do with your sister?",
+          "What advice has your sister given you?",
+          "Can you share a special moment you had with your sister?"
+        ],
+        "responses": [
+          "I don't have a sister in the traditional sense, but I'm here to talk about anything you'd like!",
+          "As an AI, I don't have personal experiences or relationships like humans do, but I'm here to chat with you!",
+          "While I don't have a sister, I'm here to provide support and assistance whenever you need it.",
+          "Feel free to share anything with me, whether it's about your sister or anything else on your mind!",
+          "I'm always here to lend an ear, whether you want to talk about family, friends, or anything else!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "obeying",
+        "patterns": [
+          "Why is it important to obey my parents?",
+          "What should I do if I disagree with my parents?",
+          "How can I show respect to my parents?",
+          "What are the consequences of disobeying my parents?",
+          "Can you give me tips for communicating with my parents?",
+          "How do I balance obeying my parents and making my own decisions?",
+          "What should I do if my parents ask me to do something I don't want to do?",
+          "How do I apologize to my parents if I've disobeyed them?",
+          "What's the best way to ask my parents for permission?",
+          "How can I build trust with my parents?",
+          "What should I do if I feel like my parents are being unfair?",
+          "Can you give me examples of ways to help my parents?"
+        ],
+        "responses": [
+          "Obeying your parents is important because they have your best interests at heart and can offer guidance based on their experience.",
+          "If you disagree with your parents, it's important to communicate respectfully and try to find a compromise.",
+          "Showing respect to your parents can include listening to them, following their rules, and expressing gratitude for their care and support.",
+          "Disobeying your parents can lead to consequences such as strained relationships, loss of trust, and negative outcomes.",
+          "Effective communication with your parents involves active listening, expressing your thoughts and feelings honestly, and being open to their perspective.",
+          "Balancing obedience with independence involves understanding your parents' expectations while also asserting your own values and beliefs.",
+          "If you disagree with your parents, try to understand their perspective and discuss your concerns calmly and respectfully.",
+          "If you've disobeyed your parents, apologize sincerely, take responsibility for your actions, and make amends if necessary.",
+          "Asking for permission involves explaining your reasoning, listening to your parents' concerns, and being willing to accept their decision.",
+          "Building trust with your parents involves being honest, reliable, and respectful, and following through on your commitments.",
+          "If you feel your parents are being unfair, express your concerns calmly and respectfully, and try to find a solution together.",
+          "Helping your parents can include tasks such as chores, running errands, offering emotional support, and spending quality time together."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "advice",
+        "patterns": [
+          "Can you give me some advice?",
+          "What should I do if I'm feeling stressed?",
+          "How can I improve my time management skills?",
+          "What's the best way to handle conflict with a friend?",
+          "Do you have any tips for staying motivated?",
+          "How can I overcome procrastination?",
+          "What's the secret to a successful job interview?",
+          "Can you give me advice for starting a new hobby?",
+          "How do I deal with failure?",
+          "What should I do if I'm feeling overwhelmed?",
+          "Do you have any advice for making new friends?",
+          "What's the key to maintaining a healthy work-life balance?",
+          "How can I boost my self-confidence?"
+        ],
+        "responses": [
+          "Sure! Here's some advice: Take breaks when needed: Remember to give yourself breaks to recharge, whether it's during studying or working on a project. Breaks can help improve focus and productivity.",
+          "Of course! Here are some tips for you:Practice self-care: Make time for self-care activities that promote your physical, mental, and emotional well-being. This could include exercise, meditation, hobbies, or spending time with loved ones.",
+          "Absolutely! Here's what I suggest:Set realistic goals: Set achievable goals that align with your values and priorities. Break larger goals into smaller, manageable tasks to track progress and stay motivated.",
+          "Certainly! Here's some advice for handling conflict: Stay organized: Develop good organizational habits to manage your time and tasks effectively. Use tools like planners, calendars, or task management apps to stay on track.",
+          "Here are some tips to help you stay motivated: Communicate openly: Foster open and honest communication in your relationships. Express your thoughts and feelings clearly, and listen actively to others.",
+          "To overcome procrastination, try these strategies:Seek continuous learning: Embrace opportunities for learning and growth, both inside and outside the classroom or workplace. Stay curious and open-minded to new ideas and perspectives.",
+          "Here's how you can ace your job interview: Be adaptable: Life is full of unexpected twists and turns. Cultivate adaptability and resilience to navigate challenges and bounce back from setbacks.",
+          "Starting a new hobby? Here's some advice to get you going:Prioritize health: Make your health a priority by eating nutritious foods, getting regular exercise, staying hydrated, and getting enough sleep. Your physical health directly impacts your mental and emotional well-being.",
+          "Dealing with failure can be tough. Here's some advice to help you through it:Manage stress: Develop healthy coping mechanisms to manage stress effectively. This could include relaxation techniques, deep breathing exercises, or seeking support from friends, family, or professionals.",
+          "Feeling overwhelmed? Here are some tips to help you cope: Practice gratitude: Cultivate a mindset of gratitude by focusing on the positive aspects of your life. Take time each day to reflect on what you're thankful for, no matter how small.",
+          "Making new friends? Here's some advice to get you started: Embrace failure as a learning opportunity: Don't be afraid to fail, as it's a natural part of the learning process. Instead, view failures as opportunities for growth and learning valuable lessons.",
+          "Maintaining work-life balance is important. Here's how you can do it: Invest in relationships: Nurture meaningful relationships with family, friends, and colleagues. Make time for quality interactions and show appreciation for the people who support and care for you.",
+          "Boosting self-confidence starts with these steps: Follow your passions: Pursue activities and interests that bring you joy and fulfillment. Follow your passions and invest time in activities that align with your values and goals."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "music",
+        "patterns": [
+          "What's your favorite genre of music?",
+          "Can you recommend some new music for me?",
+          "How does music affect our mood?",
+          "Do you play any musical instruments?",
+          "What's your favorite song?",
+          "Who is your favorite musician or band?",
+          "How can I discover new music?",
+          "What's the best way to learn to play a musical instrument?",
+          "Can music help with concentration and focus?",
+          "Do you have any tips for writing songs?",
+          "What's the role of music in different cultures?",
+          "How has music evolved over time?",
+          "What's the connection between music and emotions?"
+        ],
+        "responses": [
+          "Music is such a diverse and personal experience! Here are some responses to your questions:",
+          "Certainly! Let's explore the fascinating world of music together:",
+          "Music has a profound impact on our lives, emotions, and culture. Let's delve into some interesting questions about it:",
+          "While I don't have personal experiences with music, I'm here to discuss its various aspects with you!",
+          "Feel free to ask me anything about music, whether it's about genres, artists, instruments, or anything else!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "sleep",
+        "patterns": [
+          "How much sleep do I need each night?",
+          "Why is sleep important for our health?",
+          "How can I improve my sleep quality?",
+          "What are some common sleep disorders?",
+          "Do naps affect nighttime sleep quality?",
+          "What's the best sleep position?",
+          "How can I create a bedtime routine to help me sleep better?",
+          "Is it better to wake up at the same time every day?",
+          "What can I do if I have trouble falling asleep?",
+          "How does screen time before bed affect sleep?",
+          "Does exercise impact sleep quality?",
+          "What's the connection between diet and sleep?",
+          "Can you recommend some relaxation techniques to promote sleep?",
+          "How many hours of sleep do I need?",
+          "Why is sleep important for my health?",
+          "What can I do to improve my sleep quality?",
+          "How can I fall asleep faster?",
+          "Is it bad to nap during the day?",
+          "What are some common sleep disorders?",
+          "How does caffeine affect my sleep?",
+          "What's the best sleeping position?",
+          "How can I create a relaxing bedtime routine?",
+          "What should I do if I have trouble staying asleep?",
+          "What's the connection between sleep and mental health?",
+          "How does technology impact my sleep?",
+          "What are the benefits of getting enough sleep?"
+        ],
+        "responses": [
+          "Sleep is essential for overall health and well-being. Let's explore some questions about it:",
+          "Certainly! Sleep plays a crucial role in our lives. Here are some insights into its importance and how to improve it:",
+          "Improving sleep quality is important for our health. Here are some strategies to help you get better sleep:",
+          "Sleep disorders can impact our quality of life. Let's discuss some common ones and how to manage them:",
+          "Naps can be beneficial, but they can also affect nighttime sleep. Let's delve into how naps impact sleep quality:",
+          "The best sleep position varies from person to person. Let's explore some options and their effects on sleep quality:",
+          "Establishing a bedtime routine can promote better sleep. Let's discuss how to create one:",
+          "Consistency in wake-up times can help regulate your body's internal clock. Let's explore the importance of waking up at the same time every day:",
+          "Having trouble falling asleep is common. Let's discuss strategies to help you fall asleep faster:",
+          "Screen time before bed can affect sleep quality. Let's explore how to create a healthier bedtime routine with less screen time:",
+          "Exercise can impact sleep quality. Let's discuss how physical activity can improve or disrupt sleep:",
+          "Diet plays a role in sleep quality. Let's explore how food choices can affect your ability to sleep well:",
+          "Relaxation techniques can help promote sleep. Let's discuss some techniques to help you unwind and prepare for sleep:"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "english subject",
+        "patterns": [
+          "What are some tips for improving my English writing skills?",
+          "How can I expand my vocabulary?",
+          "What's the difference between grammar and punctuation?",
+          "Can you recommend any books to improve my English?",
+          "What are some common literary devices used in English literature?",
+          "How can I become a better reader?",
+          "What's the best way to analyze a poem?",
+          "How do I write a persuasive essay?",
+          "What's the importance of studying English literature?",
+          "Can you explain the concept of figurative language?",
+          "What are some key elements of storytelling?",
+          "How can I prepare for an English exam?",
+          "What's the role of critical thinking in studying English?"
+        ],
+        "responses": [
+          "Studying English can be enriching and rewarding! Let's explore some key aspects of the English subject:",
+          "Improving your English skills can open up many opportunities. Here are some insights to your questions:",
+          "Understanding English language and literature involves various components. Here's what you need to know:",
+          "Books are a great resource for learning English. Here are some recommendations to help you get started:",
+          "English literature is rich in literary devices and techniques. Here's an overview of some common ones:",
+          "Becoming a better reader involves practice and engagement. Here are some tips to enhance your reading skills:",
+          "Analyzing poetry requires attention to detail and understanding of literary techniques. Here's how to approach it:",
+          "Writing a persuasive essay involves crafting a compelling argument. Here are some strategies to help you write persuasively:",
+          "Studying English literature offers insights into cultures, societies, and human experiences. Here's why it's important:",
+          "Figurative language adds depth and imagery to writing. Here's what you need to know about figurative language in English:",
+          "Storytelling involves various elements that captivate and engage audiences. Here are some key elements of storytelling:",
+          "Preparing for an English exam requires focus and preparation. Here are some tips to help you succeed:",
+          "Critical thinking is essential for analyzing texts, evaluating arguments, and expressing ideas effectively in English. Here's why it's important:"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "english_grammar_questions",
+        "patterns": [
+          "What are pronouns and how are they used?",
+          "Can you explain the different types of pronouns?",
+          "How do I know when to use 'who' vs. 'whom'?",
+          "What's the difference between 'its' and 'it's'?",
+          "How do I use reflexive pronouns correctly?",
+          "Can you explain the concept of subject-verb agreement?",
+          "What are irregular verbs and how are they used?",
+          "Can you give examples of regular and irregular verbs?",
+          "How do I form past tense verbs in English?",
+          "What are modal verbs and how are they used?",
+          "What are some common grammar rules for constructing sentences?",
+          "How do I avoid common grammar mistakes in writing?",
+          "What's the difference between active and passive voice?"
+        ],
+        "responses": [
+          "Understanding pronouns, verbs, and grammar rules is essential for effective communication in English. Let's explore some key concepts:",
+          "Pronouns play an important role in replacing nouns and reducing repetition in sentences. Here's what you need to know about pronouns:",
+          "Different types of pronouns serve different functions in English grammar. Here's an overview of the main types of pronouns:",
+          "Knowing when to use 'who' and 'whom' can be tricky. Here's how to use them correctly in sentences:",
+          "Confused about 'its' vs. 'it's'? Here's how to distinguish between the possessive pronoun and the contraction:",
+          "Reflexive pronouns reflect the action of the subject back onto the subject. Here's how to use them correctly:",
+          "Subject-verb agreement ensures that the subject and verb in a sentence match in number and person. Here's how it works:",
+          "Verbs come in different forms, including regular and irregular verbs. Here's an explanation of their usage:",
+          "Regular verbs follow a predictable pattern when forming past tense. Irregular verbs, however, have unique forms. Here are examples of both:",
+          "Modal verbs express necessity, possibility, ability, or permission. Here's how to use modal verbs correctly:",
+          "Constructing grammatically correct sentences involves following various rules. Here are some common grammar rules to keep in mind:",
+          "Avoiding common grammar mistakes can improve the clarity and effectiveness of your writing. Here are some tips to help you:",
+          "The choice between active and passive voice can affect the clarity and emphasis of your writing. Here's how to use each effectively:"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "science_primary_school",
+        "patterns": [
+          "What is science?",
+          "Can you explain what a scientist does?",
+          "What are some examples of scientific discoveries?",
+          "How do plants grow?",
+          "What is the water cycle?",
+          "Can you explain the concept of gravity?",
+          "What are the different states of matter?",
+          "How does the human body work?",
+          "What is photosynthesis?",
+          "What causes day and night?",
+          "Can you explain the solar system?",
+          "How do animals adapt to their environments?",
+          "What is a food chain?"
+        ],
+        "responses": [
+          "Science is the study of the natural world and how it works. Let's explore some interesting topics in science:",
+          "Scientists observe, ask questions, and conduct experiments to understand the world around us. Here's what scientists do:",
+          "Throughout history, scientists have made many important discoveries that have changed our understanding of the world. Here are some examples:",
+          "Plants grow through a process called photosynthesis, where they use sunlight, water, and carbon dioxide to produce food and oxygen.",
+          "The water cycle is the continuous movement of water on Earth, including evaporation, condensation, precipitation, and runoff.",
+          "Gravity is the force that pulls objects toward each other. It keeps planets in orbit around the sun and causes objects to fall toward the ground.",
+          "The three states of matter are solid, liquid, and gas. Matter can change states through processes like melting, freezing, and evaporating.",
+          "The human body is a complex system made up of organs and tissues that work together to perform functions like digestion, circulation, and respiration.",
+          "Photosynthesis is the process by which plants use sunlight to convert water and carbon dioxide into glucose and oxygen.",
+          "Day and night are caused by the rotation of the Earth on its axis. When one side of the Earth faces the sun, it experiences daylight, while the other side experiences darkness.",
+          "The solar system consists of the sun, planets, moons, asteroids, and comets that orbit around it. Let's learn more about our solar system!",
+          "Animals adapt to their environments through processes like camouflage, migration, and changes in behavior or physical characteristics.",
+          "A food chain shows the flow of energy from one organism to another in an ecosystem. Let's explore how organisms are connected through food chains!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "social_studies_elementary_school",
+        "patterns": [
+          "What is social studies?",
+          "Can you explain the concept of community?",
+          "What are some examples of community helpers?",
+          "What is a map?",
+          "How do we read a map?",
+          "What are the cardinal directions?",
+          "Can you explain the concept of citizenship?",
+          "What is the importance of rules and laws?",
+          "What are some symbols of our country?",
+          "What is the difference between wants and needs?",
+          "Can you explain the concept of culture?",
+          "What are holidays and why do we celebrate them?",
+          "What is the history of our local area?"
+        ],
+        "responses": [
+          "Social studies is the study of people, communities, and societies. Let's explore some interesting topics in social studies:",
+          "A community is a group of people who live and work together in the same area. Let's learn more about what makes up a community:",
+          "Community helpers are people who provide services to the community. Here are some examples of community helpers and what they do:",
+          "A map is a visual representation of an area, showing features such as landforms, bodies of water, and roads.",
+          "Reading a map involves understanding symbols, legends, and scales to navigate and find locations on the map.",
+          "The cardinal directions are north, south, east, and west. Understanding these directions helps us navigate and orient ourselves on maps.",
+          "Citizenship is the status of being a member of a community or country and fulfilling responsibilities as a member of that community.",
+          "Rules and laws help maintain order, safety, and fairness in society. Let's explore why rules and laws are important:",
+          "Symbols of our country represent important values, history, and identity. Here are some symbols of our country and what they represent:",
+          "Wants are things we desire but can live without, while needs are things necessary for survival, such as food, water, and shelter.",
+          "Culture includes the beliefs, customs, traditions, and way of life of a group of people. Let's learn more about different cultures around the world:",
+          "Holidays are special days that commemorate events, people, or traditions. Let's explore why we celebrate holidays and what they mean to us:",
+          "The history of our local area includes stories of the people, events, and developments that have shaped our community. Let's discover the history of our local area together!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "arabic_language_questions",
+        "patterns": [
+          "What is the Arabic language?",
+          "How many letters are in the Arabic alphabet?",
+          "Can you explain the Arabic alphabet?",
+          "What are some common Arabic greetings?",
+          "How do I introduce myself in Arabic?",
+          "What are some basic Arabic phrases for everyday conversation?",
+          "How do I count in Arabic?",
+          "Can you explain the concept of verb conjugation in Arabic?",
+          "What are some Arabic proverbs and their meanings?",
+          "What's the importance of Arabic calligraphy?",
+          "How do I write my name in Arabic?",
+          "What are some differences between formal and informal Arabic?",
+          "What are some famous Arabic literature works?"
+        ],
+        "responses": [
+          "The Arabic language is a rich and ancient language spoken by millions of people around the world. Let's explore some interesting topics in Arabic language:",
+          "The Arabic alphabet consists of 28 letters, each with its own unique shape and sound.",
+          "Arabic calligraphy is a beautiful art form that involves writing Arabic letters in various styles and designs.",
+          "Arabic greetings play an important role in social interactions. Here are some common Arabic greetings:",
+          "Introducing yourself in Arabic is a great way to start conversations. Here's how you can introduce yourself in Arabic:",
+          "Learning basic Arabic phrases can help you navigate everyday situations. Here are some useful phrases for everyday conversation:",
+          "Counting in Arabic involves learning numbers and their pronunciation. Let's learn how to count in Arabic together:",
+          "Verb conjugation in Arabic involves changing the form of verbs to indicate tense, mood, and aspect. Here's how verb conjugation works in Arabic:",
+          "Arabic proverbs offer wisdom and insight into Arab culture and traditions. Here are some common Arabic proverbs and their meanings:",
+          "Arabic calligraphy is an important art form that combines aesthetics with religious and cultural significance. Let's explore the importance of Arabic calligraphy:",
+          "Writing your name in Arabic can be a fun and creative exercise. Here's how you can write your name in Arabic script:",
+          "Formal and informal Arabic have differences in vocabulary, grammar, and usage. Let's explore some of these differences:",
+          "Arabic literature is rich and diverse, with many classic works that have influenced literature and culture. Here are some famous Arabic literature works to explore:"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "alphabet_questions",
+        "patterns": [
+          "How many letters are in the English alphabet?",
+          "What are the names of the letters in the English alphabet?",
+          "Can you sing the alphabet song?",
+          "What is the order of the letters in the alphabet?",
+          "How do I pronounce the letters of the alphabet?",
+          "What are some words that start with each letter of the alphabet?",
+          "Can you give examples of words that rhyme with each letter of the alphabet?",
+          "How can I improve my handwriting when writing the alphabet?",
+          "What are uppercase and lowercase letters?",
+          "How do I spell my name using the letters of the alphabet?",
+          "What are vowel letters and consonant letters?",
+          "Can you give examples of words that contain each vowel letter?",
+          "What are some fun activities for learning the alphabet?"
+        ],
+        "responses": [
+          "The English alphabet consists of 26 letters, both uppercase and lowercase.",
+          "The names of the letters in the English alphabet are: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, and Z.",
+          "Sure! Here's the alphabet song: 'A-B-C-D-E-F-G, H-I-J-K-LMNOP, Q-R-S, T-U-V, W-X, Y and Z. Now I know my ABCs, next time won't you sing with me?'",
+          "The letters of the alphabet are typically arranged in alphabetical order, starting with 'A' and ending with 'Z'.",
+          "Each letter of the alphabet has its own unique pronunciation. Let's practice pronouncing the letters together!",
+          "There are many words that start with each letter of the alphabet. Let's explore some examples together!",
+          "Rhyming words share similar sounds at the end. Here are some examples of words that rhyme with each letter of the alphabet:",
+          "Improving handwriting takes practice. Here are some tips for practicing handwriting when writing the alphabet:",
+          "Uppercase letters are larger and often used at the beginning of sentences or proper nouns. Lowercase letters are smaller and used in the rest of the text.",
+          "You can spell your name using the letters of the alphabet. Let's spell your name together!",
+          "Vowel letters are A, E, I, O, and U. Consonant letters are all the other letters of the alphabet.",
+          "Vowel letters are found in many words. Let's explore some examples of words that contain each vowel letter!",
+          "Learning the alphabet can be fun with activities like alphabet puzzles, songs, tracing letters, and alphabet games. Let's explore some fun activities together!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "math_primary_school",
+        "patterns": [
+          "What is mathematics?",
+          "How do I add numbers together?",
+          "What are the basic subtraction strategies?",
+          "Can you explain multiplication and division?",
+          "What is a fraction?",
+          "How do I compare and order numbers?",
+          "What are shapes and their properties?",
+          "Can you explain the concept of measurement?",
+          "How do I tell time on a clock?",
+          "What are patterns and sequences?",
+          "What is place value?",
+          "How do I solve word problems in mathematics?",
+          "What is the importance of mathematics in everyday life?"
+        ],
+        "responses": [
+          "Mathematics is the study of numbers, quantities, shapes, and patterns. Let's explore some interesting topics in mathematics:",
+          "Adding numbers together involves combining two or more numbers to find their total sum. Let's practice adding numbers together:",
+          "Subtraction is the process of taking one number away from another. Here are some basic strategies for subtracting numbers:",
+          "Multiplication is the process of repeated addition, while division is the process of sharing or grouping into equal parts. Let's explore multiplication and division together:",
+          "A fraction represents a part of a whole or a ratio between two quantities. Let's learn about fractions and how to work with them:",
+          "Comparing and ordering numbers involves understanding the relationship between different numbers and arranging them from smallest to largest or vice versa.",
+          "Shapes have different properties such as sides, angles, and vertices. Let's explore the properties of shapes together:",
+          "Measurement involves comparing and quantifying objects or quantities using units of measurement such as length, weight, volume, and time.",
+          "Telling time on a clock involves understanding the hours, minutes, and seconds displayed on the clock face. Let's practice telling time together:",
+          "Patterns and sequences involve identifying and extending recurring sequences of numbers, shapes, or objects.",
+          "Place value refers to the value of each digit in a number based on its position in the number. Let's explore place value and how it works:",
+          "Solving word problems in mathematics involves understanding the problem, identifying relevant information, and using mathematical operations to find the solution.",
+          "Mathematics is important in everyday life for tasks such as budgeting, cooking, shopping, and problem-solving. Let's explore the importance of mathematics in everyday life together!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "learning_time",
+        "patterns": [
+          "How much time should I spend studying each day?",
+          "What's the best time of day to study?",
+          "How can I manage my time effectively for learning?",
+          "What are some time management techniques for students?",
+          "How long should I focus on a task before taking a break?",
+          "Is it better to study for short periods frequently or longer periods occasionally?",
+          "What's the optimal duration for study sessions?",
+          "How can I create a study schedule that works for me?",
+          "What should I do if I'm running out of time during an exam?",
+          "How can I make the most of my study time?",
+          "What are some tips for staying focused and avoiding distractions while studying?",
+          "How can I balance my time between studying and other activities?",
+          "What's the importance of taking breaks during study sessions?"
+        ],
+        "responses": [
+          "Managing your time effectively is crucial for successful learning. Let's explore some strategies for optimizing your learning time:",
+          "Finding the best time of day to study depends on your individual preferences and schedule. Let's discover when you feel most productive and focused:",
+          "Time management involves prioritizing tasks, setting goals, and allocating time wisely. Here are some techniques to help you manage your time effectively:",
+          "Effective time management techniques include creating to-do lists, setting deadlines, using a planner or calendar, and breaking tasks into smaller steps.",
+          "Taking regular breaks can help prevent burnout and improve productivity. Let's explore how to schedule and make the most of your study breaks:",
+          "Both short study sessions throughout the day and longer study sessions occasionally have their advantages. Let's find the study schedule that works best for you:",
+          "The optimal duration for study sessions varies for each individual and depends on factors like attention span and concentration. Let's experiment to find your ideal study duration:",
+          "Creating a study schedule involves considering your goals, priorities, and available time. Let's create a personalized study schedule together:",
+          "If you're running out of time during an exam, prioritize the questions you can answer quickly and efficiently. Don't forget to manage your time wisely and pace yourself.",
+          "Making the most of your study time involves staying organized, staying focused, and using effective study techniques. Let's explore some tips for maximizing your study sessions:",
+          "Staying focused and avoiding distractions is key to productive studying. Let's discuss strategies for maintaining focus and concentration while studying:",
+          "Balancing your time between studying and other activities requires effective time management and prioritization. Let's explore ways to maintain a healthy balance:",
+          "Taking breaks during study sessions is important for maintaining productivity and preventing mental fatigue. Let's discuss the benefits of taking breaks and how to incorporate them into your study routine:"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "What's your name?",
+          "Can I know your name?",
+          "May I ask what you're called?",
+          "What should I call you?",
+          "Do you have a name?",
+          "Could you tell me your name?",
+          "What do people call you?",
+          "What's your preferred name?",
+          "Can you share your name with me?",
+          "Is there a name I should address you by?",
+          "Do you go by any particular name?",
+          "May I know your name, please?",
+          "What's the name you use?"
+        ],
+        "responses": [
+          "I'm just a virtual assistant, so I don't have a personal name. You can simply call me your assistant or BOT!",
+          "As a virtual assistant, I don't have a personal name. You can call me by my function or simply as your assistant!",
+          "I'm an AI assistant, so I don't have a personal name. You can refer to me as your virtual assistant or by my function, BOT.",
+          "You can call me your assistant or by my function, BOT. I'm here to help you with any questions or tasks you have!",
+          "I don't have a personal name since I'm an AI. You can refer to me as your assistant or by my function, ChatGPT!",
+          "My name is BOT, and I'm here to assist you with any questions or tasks you have. Feel free to ask!",
+          "You can simply call me your assistant or BOT. I'm here to help you with anything you need!",
+          "As an AI assistant, I don't have a personal name. You can refer to me as your virtual assistant or by my function, BOT.",
+          "I'm just a virtual assistant, so I don't have a personal name. You can call me BOT or your assistant!",
+          "I'm an AI assistant, so I don't have a personal name. You can simply call me BOT or your virtual assistant!",
+          "You can call me by my function, BOT, or simply as your virtual assistant. How can I assist you today?",
+          "I don't have a personal name since I'm an AI. You can refer to me as your assistant or by my function, BOT!",
+          "My name is BOT, and I'm here to assist you. Feel free to ask me anything!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "how are you",
+        "patterns": [
+          "How are you?",
+          "How's it going?",
+          "How have you been?",
+          "What's up?",
+          "How's everything?",
+          "How are things?",
+          "How's life treating you?",
+          "What's new with you?",
+          "How are you doing?",
+          "How's your day going?",
+          "How are you feeling?",
+          "What's happening?",
+          "What's going on?"],
+        "responses": [
+          "I'm just a virtual assistant, but I'm here and ready to assist you with anything you need!",
+          "As an AI, I don't have feelings, but I'm here and ready to help you with any questions or tasks you have!",
+          "I'm doing well, thank you for asking! How can I assist you today?",
+          "Everything is going smoothly on my end. How can I assist you today?",
+          "I'm here and ready to assist you with any questions or tasks you have!",
+          "I'm doing great, thanks for asking! How can I assist you today?",
+          "I'm doing well, thank you for asking! How can I assist you today?",
+          "I'm here and ready to help you with anything you need!",
+          "Everything is going well on my end. How can I assist you today?",
+          "I'm doing fine, thank you for asking! How can I assist you today?",
+          "I'm here and ready to assist you with any questions or tasks you have!",
+          "I'm doing well, thank you for asking! How can I assist you today?",
+          "I'm here and ready to help you with anything you need!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "vacation activities",
+        "patterns": [
+          "What do you do on vacation?",
+          "How do you spend your vacation?",
+          "What are some activities you enjoy on vacation?",
+          "What's your favorite thing to do while on vacation?",
+          "How do you relax during your vacation?",
+          "What do you like to do for fun on vacation?",
+          "What are some vacation destinations you enjoy?",
+          "Can you suggest some activities for a vacation?",
+          "What do people typically do on vacation?",
+          "How do you make the most of your vacation time?",
+          "What's your idea of a perfect vacation?",
+          "Do you have any favorite vacation memories?",
+          "What activities would you recommend for a family vacation?"
+        ],
+        "responses": [
+          "On vacation, people often relax, explore new places, try new activities, spend time with family and friends, and create lasting memories.",
+          "Some popular vacation activities include sightseeing, hiking, swimming, sunbathing, shopping, dining out, and participating in local cultural experiences.",
+          "My favorite thing to do on vacation is to explore nature, visit historical sites, and try local cuisine.",
+          "To relax during vacation, I enjoy reading books, listening to music, taking leisurely walks, and spending time by the beach.",
+          "For fun on vacation, I like to engage in adventurous activities such as snorkeling, zip-lining, or bungee jumping, depending on the destination.",
+          "Some vacation destinations I enjoy include tropical beaches, mountain resorts, bustling cities, and serene countryside retreats.",
+          "For a family vacation, activities like visiting amusement parks, going on nature hikes, having picnics, and enjoying water sports can be enjoyable for everyone.",
+          "To make the most of vacation time, it's important to plan activities that cater to your interests and relaxation needs while allowing for spontaneity and exploration.",
+          "A perfect vacation for me would involve a mix of adventure, relaxation, and cultural immersion, along with good food and great company.",
+          "One of my favorite vacation memories is snorkeling in the clear waters of the Caribbean and exploring vibrant coral reefs filled with colorful fish.",
+          "I recommend activities that cater to the interests and preferences of each family member while fostering bonding and creating memorable experiences together."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "football",
+        "patterns": [
+          "What is football?",
+          "How is football played?",
+          "What are the rules of football?",
+          "Who are some famous football players?",
+          "What are some popular football teams?",
+          "What are the positions in football?",
+          "How do you score in football?",
+          "What is the history of football?",
+          "What are some football tournaments?",
+          "How has football evolved over time?",
+          "What are some football skills?",
+          "What's the difference between football and soccer?",
+          "How can I improve my football game?"
+        ],
+        "responses": [
+          "Football, also known as soccer in some countries, is a team sport played between two teams of eleven players each, using a spherical ball.",
+          "Football is played by two teams aiming to score goals by kicking the ball into the opposing team's goal, using any part of the body except the hands and arms.",
+          "The rules of football include regulations regarding player positions, fouls, penalties, offside, throw-ins, corners, and goal kicks, among others.",
+          "Some famous football players include Lionel Messi, Cristiano Ronaldo, Neymar Jr., Pele, Diego Maradona, and Zinedine Zidane, among others.",
+          "Popular football teams include FC Barcelona, Real Madrid, Manchester United, Liverpool FC, Bayern Munich, and Juventus, among others.",
+          "Football positions include goalkeeper, defender, midfielder, and forward, each with specific roles and responsibilities on the field.",
+          "Scoring in football involves kicking the ball into the opposing team's goal, with each goal counting as one point.",
+          "Football has a long history dating back centuries, with modern football originating in England in the 19th century and evolving into the global sport it is today.",
+          "Some football tournaments include the FIFA World Cup, UEFA Champions League, Copa America, UEFA European Championship, and English Premier League, among others.",
+          "Football has evolved significantly over time in terms of rules, tactics, equipment, and global popularity, reflecting changes in society and technology.",
+          "Football skills include dribbling, passing, shooting, tackling, heading, ball control, and goalkeeping, among others.",
+          "The term 'football' is used interchangeably with 'soccer' in some countries, while in others, football refers specifically to American football, which is a different sport.",
+          "Improving your football game involves regular practice, fitness training, skill development, teamwork, and tactical understanding of the game."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "ahly team",
+        "patterns": [
+          "What is the Ahly team?",
+          "Who is Al Ahly Sporting Club?",
+          "What are some achievements of the Ahly team?",
+          "Who are some famous players of the Ahly team?",
+          "What are some rivalries of the Ahly team?",
+          "Can you tell me about the history of the Ahly team?",
+          "What are some interesting facts about the Ahly team?",
+          "What are the colors of the Ahly team's jersey?",
+          "What are some recent matches of the Ahly team?",
+          "How can I watch Ahly team matches?",
+          "What are the strengths of the Ahly team?",
+          "What are the values of the Ahly team?",
+          "How can I support the Ahly team?"
+        ],
+        "responses": [
+          "The Ahly team, officially known as Al Ahly Sporting Club, is an Egyptian sports club based in Cairo, Egypt.",
+          "Al Ahly Sporting Club, commonly referred to as Al Ahly, is one of the most successful and popular football clubs in Egypt and Africa.",
+          "The Ahly team has achieved numerous domestic and continental titles, including Egyptian Premier League titles and CAF Champions League titles.",
+          "Some famous players who have played for the Ahly team include Mohamed Aboutrika, Hossam Ashour, Mohamed Salah, and Mahmoud El Khatib, among others.",
+          "The Ahly team has rivalries with other Egyptian football clubs, including Zamalek SC and Ismaily SC.",
+          "The Ahly team has a rich history dating back to its establishment in 1907 and has won numerous domestic and continental titles.",
+          "An interesting fact about the Ahly team is that it holds the record for the most CAF Champions League titles, with multiple victories in the competition.",
+          "The colors of the Ahly team's jersey are usually red and white, representing the club's identity and tradition.",
+          "You can watch Ahly team matches through television broadcasts, online streaming platforms, or by attending matches in person at the stadium.",
+          "The Ahly team is known for its strong teamwork, tactical discipline, and skilled players.",
+          "The values of the Ahly team include sportsmanship, integrity, dedication, and excellence both on and off the field.",
+          "You can support the Ahly team by attending matches, purchasing merchandise, following them on social media, and showing your support through fan clubs and communities."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "zamalek team",
+        "patterns": [
+          "What is the Zamalek team?",
+          "Who is Zamalek Sporting Club?",
+          "What are some achievements of the Zamalek team?",
+          "Who are some famous players of the Zamalek team?",
+          "What are some rivalries of the Zamalek team?",
+          "Can you tell me about the history of the Zamalek team?",
+          "What are some interesting facts about the Zamalek team?",
+          "What are the colors of the Zamalek team's jersey?",
+          "What are some recent matches of the Zamalek team?",
+          "How can I watch Zamalek team matches?",
+          "What are the strengths of the Zamalek team?",
+          "What are the values of the Zamalek team?",
+          "How can I support the Zamalek team?"
+        ],
+        "responses": [
+          "The Zamalek team, officially known as Zamalek Sporting Club, is an Egyptian sports club based in Cairo, Egypt.",
+          "Zamalek Sporting Club, commonly referred to as Zamalek, is one of the most successful and popular football clubs in Egypt and Africa.",
+          "The Zamalek team has achieved numerous domestic and continental titles, including Egyptian Premier League titles and CAF Champions League titles.",
+          "Some famous players who have played for the Zamalek team include Hazem Emam, Mahmoud Al Khatib, Hossam Hassan, and Ahmed El Shenawy, among others.",
+          "The Zamalek team has rivalries with other Egyptian football clubs, including Al Ahly SC and Ismaily SC.",
+          "The Zamalek team has a rich history dating back to its establishment in 1911 and has won numerous domestic and continental titles.",
+          "An interesting fact about the Zamalek team is that it was the first African football club to win the CAF Champions League three times in a row.",
+          "The colors of the Zamalek team's jersey are usually white and red, representing the club's identity and tradition.",
+          "You can watch Zamalek team matches through television broadcasts, online streaming platforms, or by attending matches in person at the stadium.",
+          "The Zamalek team is known for its strong defensive play, tactical versatility, and skilled players.",
+          "The values of the Zamalek team include sportsmanship, integrity, dedication, and excellence both on and off the field.",
+          "You can support the Zamalek team by attending matches, purchasing merchandise, following them on social media, and showing your support through fan clubs and communities."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "basketball",
+        "patterns": [
+          "What is basketball?",
+          "How is basketball played?",
+          "What are the rules of basketball?",
+          "Who are some famous basketball players?",
+          "What are some popular basketball teams?",
+          "What are the positions in basketball?",
+          "How do you score in basketball?",
+          "What is the history of basketball?",
+          "What are some basketball tournaments?",
+          "How has basketball evolved over time?",
+          "What are some basketball skills?",
+          "How can I improve my basketball game?"
+        ],
+        "responses": [
+          "Basketball is a team sport played between two teams of five players each, with the objective of scoring points by shooting the ball through the opponent's hoop.",
+          "Basketball is played by dribbling the ball, passing it to teammates, and shooting it into the opponent's hoop while defending against the other team's attempts to score.",
+          "The rules of basketball include regulations regarding player positions, fouls, free throws, violations, scoring, and timeouts, among others.",
+          "Some famous basketball players include Michael Jordan, LeBron James, Kobe Bryant, Shaquille O'Neal, Stephen Curry, and Magic Johnson, among others.",
+          "Popular basketball teams include the Los Angeles Lakers, Boston Celtics, Chicago Bulls, Golden State Warriors, Miami Heat, and San Antonio Spurs, among others.",
+          "Basketball positions include point guard, shooting guard, small forward, power forward, and center, each with specific roles and responsibilities on the court.",
+          "Scoring in basketball involves shooting the ball into the opponent's hoop, with different point values assigned based on the distance and manner of the shot.",
+          "Basketball was invented by Dr. James Naismith in 1891 in Springfield, Massachusetts, and has since become one of the most popular sports worldwide.",
+          "Some basketball tournaments include the NBA Finals, NCAA March Madness, FIBA Basketball World Cup, Olympic basketball tournament, and EuroLeague, among others.",
+          "Basketball has evolved significantly over time in terms of rules, playing styles, strategies, equipment, and global popularity, reflecting changes in society and technology.",
+          "Basketball skills include dribbling, shooting, passing, rebounding, defense, agility, speed, and teamwork, among others.",
+          "Improving your basketball game involves regular practice, fitness training, skill development, teamwork, and tactical understanding of the game."
+        ],
+        "context_set": ""
+    },
+    {
+      "tag": "swimming",
+      "patterns": [
+        "What is swimming?",
+        "How is swimming done?",
+        "What are the strokes in swimming?",
+        "What are the rules of swimming?",
+        "Who are some famous swimmers?",
+        "What are some popular swimming events?",
+        "What are the benefits of swimming?",
+        "How can I improve my swimming technique?",
+        "What are some safety tips for swimming?",
+        "What are some swimming techniques for beginners?",
+        "Where can I swim?",
+        "How do I get started with swimming?",
+        "What equipment do I need for swimming?"
+      ],
+      "responses": [
+        "Swimming is a water-based sport and recreational activity where individuals move through water using their arms and legs.",
+        "Swimming is done by propelling oneself through the water using various strokes, such as freestyle, backstroke, breaststroke, and butterfly.",
+        "The main strokes in swimming are freestyle, backstroke, breaststroke, and butterfly, each with its own technique and style.",
+        "The rules of swimming vary depending on the type of competition or event, but generally include regulations regarding stroke technique, turns, starts, and finishes.",
+        "Some famous swimmers include Michael Phelps, Katie Ledecky, Ian Thorpe, Missy Franklin, Ryan Lochte, and Caeleb Dressel, among others.",
+        "Popular swimming events include the Olympic Games, FINA World Championships, NCAA Swimming Championships, and various open water swimming competitions.",
+        "Swimming offers numerous benefits, including cardiovascular fitness, muscle strength and endurance, flexibility, stress relief, and improved coordination and balance.",
+        "You can improve your swimming technique by practicing regularly, focusing on proper stroke mechanics, seeking feedback from coaches or instructors, and incorporating drills and exercises into your training.",
+        "Safety tips for swimming include swimming in designated areas with lifeguards, avoiding swimming alone, wearing appropriate swim gear, staying hydrated, and being aware of weather conditions and water depth.",
+        "Swimming techniques for beginners include learning basic strokes, practicing breathing techniques, building water confidence, and gradually increasing endurance and distance.",
+        "You can swim in various locations such as pools, lakes, rivers, oceans, and even indoor water parks or aquatic centers.",
+        "To get started with swimming, you can sign up for swimming lessons, join a local swim club or team, or simply start practicing in a pool or other suitable water body.",
+        "Equipment for swimming may include swimwear, goggles, swim caps, fins, kickboards, pull buoys, paddles, and snorkels, depending on your swimming goals and preferences."
+      ],
+      "context_set": ""
+      },
+      {
+        "tag": "cleanliness",
+        "patterns": [
+          "Why is cleanliness important?",
+          "What are the benefits of cleanliness?",
+          "How does cleanliness contribute to health?",
+          "What are the consequences of poor cleanliness?",
+          "How does cleanliness impact the environment?",
+          "Why is personal hygiene important?",
+          "What role does cleanliness play in preventing diseases?",
+          "How can cleanliness improve quality of life?",
+          "What are some hygiene practices to maintain cleanliness?",
+          "Why is it important to keep our surroundings clean?",
+          "What are the social benefits of cleanliness?",
+          "How can cleanliness contribute to productivity?",
+          "What are some tips for maintaining cleanliness?"
+        ],
+        "responses": [
+          "Cleanliness is important for maintaining good health and preventing the spread of diseases.",
+          "The benefits of cleanliness include reduced risk of infections, improved overall health, and enhanced well-being.",
+          "Cleanliness contributes to health by minimizing exposure to harmful bacteria, viruses, and germs that can cause illness.",
+          "Poor cleanliness can lead to various consequences such as increased risk of infections, illness outbreaks, and environmental pollution.",
+          "Cleanliness helps preserve the environment by reducing pollution, conserving resources, and promoting sustainability.",
+          "Personal hygiene is important for preventing the spread of infections and maintaining physical and mental well-being.",
+          "Cleanliness plays a crucial role in preventing the transmission of diseases by eliminating germs and pathogens from surfaces and environments.",
+          "Cleanliness can improve quality of life by creating safer and healthier living conditions, reducing stress, and enhancing overall satisfaction.",
+          "Hygiene practices such as handwashing, regular bathing, cleaning and disinfecting surfaces, and proper waste disposal help maintain cleanliness.",
+          "Keeping our surroundings clean is important for promoting a safe, healthy, and attractive environment for everyone.",
+          "Cleanliness fosters social cohesion and community pride by creating pleasant and welcoming spaces for people to live, work, and socialize.",
+          "Maintaining cleanliness can increase productivity by reducing absenteeism due to illness, improving concentration, and enhancing morale.",
+          "Tips for maintaining cleanliness include establishing routines for cleaning and organizing, decluttering regularly, and practicing good personal hygiene habits."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "inappropriate words",
+        "patterns": [
+          "stupid",
+          "idiot",
+          "dumb",
+          "moron",
+          "fool",
+          "retard",
+          "ugly",
+          "fat",
+          "disgusting",
+          "annoying",
+          "AhA",
+          "Like your fish","kasmak",
+          "Mattnak","sex"
+        ],
+        "responses": [
+          "I'm sorry, I don't think that's a nice thing to say. Is there something else you'd like to discuss?",
+          "Let's try to keep the conversation respectful. Is there anything specific you'd like to talk about?",
+          "It's important to be kind to one another. Can we focus on something more positive?",
+          "I believe in treating others with kindness and respect. Is there a different topic you'd like to explore?",
+          "Using hurtful language isn't productive. Let's try to keep the conversation positive.",
+          "Everyone deserves to be treated with respect. Can we change the subject to something more uplifting?",
+          "I prefer to keep our conversation positive and respectful. Is there anything else you'd like to chat about?",
+          "I'm here to help and have a pleasant conversation. Can we move on to a different topic?",
+          "Let's avoid using language that might be hurtful to others. Is there something else you'd like to discuss?",
+          "It's important to remember that words can impact others. Let's focus on something more constructive, shall we?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "study references",
+        "patterns": [
+          "Can you recommend some study resources?",
+          "Where can I find good study materials?",
+          "Do you have any suggestions for study websites?",
+          "I need help finding study resources online.",
+          "What are some reputable sources for studying?",
+          "Can you provide links to study guides?",
+          "Where can I access reliable study materials?",
+          "Are there any online courses you recommend for studying?",
+          "How can I improve my study skills?",
+          "Do you know any websites for learning new subjects?"
+        ],
+        "responses": [
+          "Of course! Here are some reputable websites where you can find study materials:\n1. Khan Academy - [https://www.khanacademy.org/](https://www.khanacademy.org/)\n2. Coursera - [https://www.coursera.org/](https://www.coursera.org/)\n3. edX - [https://www.edx.org/](https://www.edx.org/)\n4. MIT OpenCourseWare - [https://ocw.mit.edu/index.htm](https://ocw.mit.edu/index.htm)\n5. Quizlet - [https://quizlet.com/](https://quizlet.com/)",
+          "You can find a wealth of study resources on these websites:\n1. Academic Earth - [https://academicearth.org/](https://academicearth.org/)\n2. TED-Ed - [https://ed.ted.com/](https://ed.ted.com/)\n3. Crash Course - [https://www.youtube.com/user/crashcourse](https://www.youtube.com/user/crashcourse)\n4. Udemy - [https://www.udemy.com/](https://www.udemy.com/)\n5. Harvard Online Learning - [https://online-learning.harvard.edu/](https://online-learning.harvard.edu/)",
+          "For study materials tailored to specific subjects, you might find these websites helpful:\n1. Wolfram Alpha - [https://www.wolframalpha.com/](https://www.wolframalpha.com/)\n2. Codecademy - [https://www.codecademy.com/](https://www.codecademy.com/)\n3. Duolingo - [https://www.duolingo.com/](https://www.duolingo.com/)\n4. Project Gutenberg - [https://www.gutenberg.org/](https://www.gutenberg.org/)\n5. Khan Academy - [https://www.khanacademy.org/](https://www.khanacademy.org/)"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "exam questions",
+        "patterns": [
+          "How can I prepare for exams?",
+          "Do you have any tips for studying for exams?",
+          "What are some effective study strategies for exams?",
+          "Can you give me advice on how to do well in exams?",
+          "I'm feeling stressed about exams. What should I do?",
+          "What are some ways to manage exam anxiety?",
+          "How can I stay focused while studying for exams?",
+          "What should I do if I don't understand a topic for the exam?",
+          "How important is revision for exams?",
+          "What are some common mistakes to avoid during exams?",
+          "Can you recommend any resources for exam preparation?",
+          "What should I do if I run out of time during an exam?",
+          "How can I improve my exam performance?"
+        ],
+        "responses": [
+          "To prepare for exams, it's important to create a study schedule, review class materials regularly, practice past papers, and take breaks to avoid burnout.",
+          "Effective study strategies for exams include active learning techniques such as summarizing notes, teaching others, and using mnemonic devices.",
+          "To manage exam stress, try relaxation techniques like deep breathing, exercise, and getting enough sleep. Also, break down study sessions into manageable chunks.",
+          "Staying focused while studying for exams can be challenging. Try eliminating distractions, setting specific goals, and rewarding yourself for staying on track.",
+          "If you're struggling with a topic, don't hesitate to ask for help from teachers, classmates, or online resources. Reviewing materials with others can provide new insights.",
+          "Revision is crucial for exams as it helps reinforce learning and identify areas that need improvement. Use revision techniques like flashcards, mind maps, and spaced repetition.",
+          "Common mistakes during exams include not reading instructions carefully, rushing through questions, and neglecting to review answers before submitting.",
+          "If you run out of time during an exam, focus on answering questions you know well first and manage your time wisely by allocating enough time for each section.",
+          "Improving exam performance involves practicing time management, understanding the exam format, and developing critical thinking and problem-solving skills."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "islamic_prayer_questions",
+        "patterns": [
+          "What is Salah in Islam?",
+          "How many times a day do Muslims pray?",
+          "What are the five daily prayers called?",
+          "What are the timings for each prayer in Islam?",
+          "Can you explain the importance of prayer in Islam?",
+          "How do Muslims perform the Salah?",
+          "What are the physical movements in Islamic prayer?",
+          "What is the significance of facing the Qiblah during Salah?",
+          "Are there any prerequisites for performing Salah?",
+          "What is the Adhan and its significance?",
+          "Can you provide some tips for improving concentration during Salah?",
+          "What should one do if they miss a prayer?",
+          "How does Salah contribute to spiritual growth in Islam?"
+        ],
+        "responses": [
+          "Salah, or prayer, is one of the Five Pillars of Islam and holds great significance in the life of a Muslim.",
+          "Muslims pray five times a day as prescribed by Islamic teachings.",
+          "The five daily prayers are Fajr, Dhuhr, Asr, Maghrib, and Isha.",
+          "The timings for each prayer vary throughout the day and are determined by the position of the sun.",
+          "Prayer is considered a direct connection between the individual and Allah, serving as a means of spiritual purification, guidance, and remembrance.",
+          "Muslims perform Salah by following a series of prescribed physical movements and recitations while facing the Kaaba in Mecca.",
+          "The physical movements in Islamic prayer include standing, bowing (ruku), prostration (sujood), and sitting.",
+          "Facing the Qiblah (direction of the Kaaba) symbolizes unity and signifies the spiritual center of Islam.",
+          "Prerequisites for performing Salah include ritual purity (wudu or ghusl), covering the awrah (private parts), and facing the Qiblah.",
+          "The Adhan is the call to prayer recited before each Salah, signaling the start of the prayer time.",
+          "To improve concentration during Salah, one can recite Quranic verses, focus on the meanings of the words, and perform the prayer in a quiet and distraction-free environment.",
+          "If one misses a prayer, they should make it up as soon as possible and seek forgiveness from Allah for the lapse.",
+          "Salah contributes to spiritual growth by fostering a sense of discipline, humility, gratitude, and closeness to Allah."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "disease_questions",
+        "patterns": [
+          "What are some common symptoms of the flu?",
+          "How does diabetes affect the body?",
+          "What are the risk factors for developing heart disease?",
+          "Can you explain the difference between viral and bacterial infections?",
+          "What are the symptoms of COVID-19?",
+          "How does cancer develop in the body?",
+          "What are some ways to prevent the spread of infectious diseases?",
+          "Can you describe the symptoms of asthma?",
+          "What is the importance of vaccination in preventing diseases?",
+          "How does Alzheimer's disease affect cognitive function?",
+          "What are the main causes of foodborne illnesses?",
+          "Can you explain the difference between acute and chronic diseases?",
+          "What are some common treatments for arthritis?",
+          "How does high blood pressure impact overall health?",
+          "What are the signs of a stroke, and what should someone do if they suspect they're having one?"
+        ],
+        "responses": [
+          "go to your doctor .. please"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "animal_questions",
+        "patterns": [
+          "What are some interesting facts about elephants?",
+          "How do lions hunt for food?",
+          "Can you tell me about the habitat of polar bears?",
+          "What are some adaptations of camels to desert environments?",
+          "What is the life cycle of a butterfly?",
+          "How do dolphins communicate with each other?",
+          "What are some unique features of kangaroos?",
+          "Can you explain the migration patterns of birds?",
+          "What are some endangered species and why are they endangered?",
+          "How do snakes hunt and capture their prey?",
+          "What are some characteristics of nocturnal animals?",
+          "Can you tell me about the social structure of wolves?",
+          "What are some ways animals use camouflage for survival?",
+          "How do bees make honey?",
+          "Can you describe the anatomy of a shark?"
+        ],
+        "responses": [
+          "Elephants are the largest land animals and have a highly developed brain, long memory, and strong social bonds within their herds.",
+          "Lions hunt in coordinated groups called prides, using stealth and teamwork to stalk and ambush their prey, usually targeting weaker or injured animals.",
+          "Polar bears inhabit the Arctic region and rely on sea ice for hunting seals, their primary food source. They have thick fur and a layer of blubber to insulate them from the cold.",
+          "Camels have numerous adaptations for desert life, including thick fur to protect against the sun, specialized hooves for walking on sand, and the ability to conserve water by reabsorbing moisture from their urine.",
+          "The life cycle of a butterfly consists of four stages: egg, larva (caterpillar), pupa (chrysalis), and adult (butterfly). This process is called metamorphosis.",
+          "Dolphins communicate using a combination of vocalizations, body language, and echolocation, which involves emitting high-frequency clicks and interpreting the echoes.",
+          "Kangaroos are marsupials found in Australia known for their powerful hind legs, long tail for balance, and pouch in which they carry their young, called joeys.",
+          "Birds migrate to different regions in search of food, breeding grounds, or favorable climate conditions. Migration patterns vary among species and can be seasonal or long-distance.",
+          "Endangered species are those facing a high risk of extinction due to factors such as habitat loss, pollution, climate change, poaching, and disease. Examples include the black rhinoceros, Sumatran tiger, and Amur leopard.",
+          "Snakes use a combination of ambush, pursuit, and constriction to capture prey. Some venomous snakes inject venom to immobilize their prey before consuming it.",
+          "Nocturnal animals are active primarily during the night and have adaptations such as keen senses of hearing and smell, enhanced vision in low light, and specialized camouflage.",
+          "Wolves live in packs with complex social structures led by an alpha pair. They communicate through vocalizations, body language, and scent marking.",
+          "Animals use camouflage to blend in with their surroundings, making it difficult for predators to spot them or for prey to detect them. Examples include coloration, patterns, and body shapes that resemble their environment.",
+          "Bees collect nectar from flowers and store it in a special stomach called the honey stomach. They then return to the hive, regurgitate the nectar, and fan it with their wings to evaporate moisture and transform it into honey.",
+          "Sharks have streamlined bodies, sharp teeth, and powerful jaws for hunting prey. They also have special organs called ampullae of Lorenzini that detect electrical signals given off by other animals."
+        ],
+        "context_set": ""
+      }
+
+
+
+
+   ]
+}
